@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+spacy
+transformers
+torch
+presidio-analyzer
+presidio-anonymizer
+scikit-learn

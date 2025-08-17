@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Secure Filter</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 10px; width: 300px; }
+    textarea { width: 100%; height: 100px; margin-bottom: 10px; }
+    button { width: 100%; padding: 5px; margin-bottom: 5px; }
+    pre { background: #eee; padding: 10px; white-space: pre-wrap; word-wrap: break-word; }
+  </style>
+</head>
+<body>
+  <h3>Secure Filter</h3>
+  <textarea id="prompt" placeholder="Your prompt here..."></textarea>
+  <button id="filterBtn">Detect & Mask</button>
+  <h4>Masked Output</h4>
+  <pre id="output">...</pre>
+  <button id="sendBtn">Send to ChatGPT</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
