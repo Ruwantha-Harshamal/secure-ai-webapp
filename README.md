@@ -250,17 +250,9 @@ CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8000"]
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📝 License
+## 📄 License
 
-This project is open source. Please check the license file for more details.
-
-## 🆘 Support
-
-If you encounter any issues:
-1. Check that all dependencies are installed correctly
-2. Ensure spaCy models are downloaded
-3. Verify that the required Python version is being used
-4. Check the console/terminal for error messages
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🔄 Version History
 
